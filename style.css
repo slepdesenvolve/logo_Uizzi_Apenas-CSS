@@ -1,0 +1,87 @@
+body {
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.logo {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+
+.diamond {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: #3b82f6;
+    /* azul*/
+    transform: rotate(45deg);
+    top: 33.3px;
+    left: 38px;
+    z-index: 2;
+}
+
+.cima-left {
+    position: absolute;
+    width: 17px;
+    height: 40px;
+    background-color: #3b82f6;
+    transform: rotate(45deg);
+    top: 12px;
+    left: 15px;
+}
+
+.cima-right {
+    position: absolute;
+    width: 17px;
+    height: 40px;
+    background-color:#3b82f6;
+    transform: rotate(-45deg);
+    top: 12px;
+    right: 15px;
+}
+
+.baixo-left {
+    position: absolute;
+    width: 17px;
+    height: 56px;
+    left: 15px;
+    bottom: 12px;
+    background-color: #3b82f6;
+    transform: rotate(-45deg);
+}
+
+.baixo-right {
+    position: absolute;
+    width: 17px;
+    height: 56px;
+    right: 15px;
+    bottom: 12px;
+    background-color: #3b82f6;
+    transform: rotate(45deg);
+}
+
+.top-diamond {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    background-color: #4ab3c5;
+    transform: rotate(45deg);
+    top: 0;
+    left: 42px;
+
+    z-index: 1;
+}
+.quadro-preto {
+    position: absolute;
+    width: 24px;
+    height: 30px;
+    background-color: #111;
+    bottom: 15px;
+    left: 38px;
+    z-index: 1;
+}
